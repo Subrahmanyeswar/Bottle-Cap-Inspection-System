@@ -14,17 +14,21 @@ Advanced Edge-Based Automated Optical Inspection System for Bottle Manufacturing
 
 ## 📸 System States
 
-*(Add your screenshots here by replacing the placeholder links!)*
+The inspection pipeline dynamically switches between an idle monitoring state and active classification, detecting three specific bottle cap conditions.
 
-| Idle State (Waiting) | Inspection Active (Bottle Detected) |
+| 1. Idle State (Waiting for Bottle) | 2. Active Inspection (Pass / Warning / Critical) |
 | :---: | :---: |
-| ![Idle](https://via.placeholder.com/400x250.png?text=Upload+Idle+Screenshot+Here) | ![Active](https://via.placeholder.com/400x250.png?text=Upload+Active+Screenshot+Here) |
+| <img src="./idle%20state.png" width="400"> | <img src="./all%203%20states.png" width="400"> |
+
+* **PASS (Green):** Properly sealed caps.
+* **WARNING (Orange):** Loose or crooked caps.
+* **CRITICAL (Red):** Missing caps entirely.
 
 ## 🛠️ Hardware Requirements
 
 * **Processor**: Standard Laptop CPU (Benchmarked on Intel Core i5-12500HX)
-* **Camera**: Integrated 720p HD Webcam (or standard USB Webcam)
-* **RAM**: 8GB+ Recommended
+* **Camera**: Integrated 720p HD Webcam
+* **RAM**: 16 GB DDR4 (Minimum 8GB Supported)
 
 ## 💻 Installation & Usage
 
@@ -53,7 +57,7 @@ Accelerated inference powered by Intel OpenVINO Toolkit
 
 Computer Vision pipeline built with OpenCV
 
-⭐️ Star this repo if you found it helpful!
+⭐ Star this repo if you found it helpful!
 Made with ❤️ and 🤖 by Subrahmanyeswar Kolluru
 
 👨‍💻 Author
