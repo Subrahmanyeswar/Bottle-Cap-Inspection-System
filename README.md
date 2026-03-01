@@ -18,7 +18,7 @@ The inspection pipeline dynamically switches between an idle monitoring state an
 
 | 1. Idle State (Waiting for Bottle) | 2. Active Inspection (Pass / Warning / Critical) |
 | :---: | :---: |
-| <img src="./idle%20state.png" width="400"> | <img src="./all%203%20states.png" width="400"> |
+| <img src="idle_state.png" width="400"> | <img src="all_3_states.png" width="400"> |
 
 * **PASS (Green):** Properly sealed caps.
 * **WARNING (Orange):** Loose or crooked caps.
@@ -34,8 +34,8 @@ The inspection pipeline dynamically switches between an idle monitoring state an
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/Subrahmanyeswar/Edge-AI-Quality-Inspection.git](https://github.com/Subrahmanyeswar/Edge-AI-Quality-Inspection.git)
-cd Edge-AI-Quality-Inspection
+git clone [https://github.com/Subrahmanyeswar/Bottle-Cap-Inspection-System.git](https://github.com/Subrahmanyeswar/Bottle-Cap-Inspection-System.git)
+cd Bottle-Cap-Inspection-System
 2. Install dependencies
 
 Bash
